@@ -1,6 +1,8 @@
 .grid-container {
+  max-width: 350px;
+  max-height: 500px;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 100px 100px 100px;
   gap: 10px;
   background-color: #414141;
   padding: 10px;
@@ -14,6 +16,8 @@
 
 @media only screen and (max-width: 500px) {
   .grid-container {
-    grid-template-columns: 200px;
+    max-width: 100px;
+    max-height: 500px;
+    grid-template-columns: 100px;
   }
 }/*# sourceMappingURL=style.css.map */
